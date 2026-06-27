@@ -1,17 +1,3 @@
-# QVPN Monitoring Agent
-
-This directory contains the QVPN monitoring agent, which handles local threat detection, system resource polling, and database synchronization.
-
-## Prerequisites
-
-Before you begin, ensure your system meets the following requirements:
-
-* **Operating System**: Windows (The agent uses `pywin32` and `wmi` libraries which are Windows-specific).
-* **Python**: Python 3.8 or higher installed and added to your system PATH.
-* **Database**: Access to a PostgreSQL database (e.g., Supabase) for remote synchronization.
-
----
-
 ## Step-by-Step Installation
 
 ### 1. Navigate to the Agent Directory
